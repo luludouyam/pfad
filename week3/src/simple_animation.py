@@ -6,8 +6,8 @@ import matplotlib.transforms as transforms
 
 fig = plt.figure(figsize=(7, 7))
 ax = fig.add_axes([0, 0, 1, 1], frameon=False)
-ax.set_xlim(-1, 1), ax.set_xticks([])
-ax.set_ylim(-1, 1), ax.set_yticks([])
+ax.set_xlim(-2, 2), ax.set_xticks([])
+ax.set_ylim(-2, 2), ax.set_yticks([])
 
 # add a circle to the plot
 circle1 = plt.Circle((0, 0), 0.1, color='r')
