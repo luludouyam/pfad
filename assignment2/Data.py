@@ -22,9 +22,14 @@ fig, ax = plt.subplots()
 # plot some data on the axis
 ax.plot(x_vals, y_vals)
 
+ax.set_title('Tsunami warning depths in the South China Sea region')
+ax.set_xlabel('Date')
+ax.set_ylabel('Depth')
+
 print(y_vals)
 # show the plot
 plt.show()
+
     
     
 
